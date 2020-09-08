@@ -1,0 +1,6 @@
+{
+  "template": {
+    "page": "/.vscode/iku/template/default/Page",
+    "comp": "/.vscode/iku/template/default/Page/components/DemoComp"
+  }
+}

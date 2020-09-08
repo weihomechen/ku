@@ -1,0 +1,45 @@
+{
+  "name": "@ifun/ku",
+  "version": "0.0.5",
+  "auth": "xiakong",
+  "description": "iku -- 命令行工具",
+  "main": "./bin/index.js",
+  "bin": {
+    "ku": "./bin/index.js"
+  },
+  "scripts": {
+    "deploy": "node ./bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint --ext .js bin lib"
+  },
+  "files": [
+    "bin",
+    "config",
+    "lib"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "child_process": "^1.0.2",
+    "co": "^4.6.0",
+    "commander": "^3.0.1",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "semver": "^6.3.0"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
